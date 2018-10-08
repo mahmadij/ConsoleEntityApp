@@ -61,6 +61,10 @@
     <Compile Include="Migrations\201810081914471_UpdateItem.Designer.cs">
       <DependentUpon>201810081914471_UpdateItem.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810081939302_Override.cs" />
+    <Compile Include="Migrations\201810081939302_Override.Designer.cs">
+      <DependentUpon>201810081939302_Override.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ItemList.cs" />
@@ -82,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810081914471_UpdateItem.resx">
       <DependentUpon>201810081914471_UpdateItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810081939302_Override.resx">
+      <DependentUpon>201810081939302_Override.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

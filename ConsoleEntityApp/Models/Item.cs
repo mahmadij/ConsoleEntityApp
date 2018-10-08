@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,9 @@ namespace ConsoleEntityApp.Models
     public class Item
     {
         public int Id { get; set; }
+
+        //Using Data Annotation for override
+        [Required]
         public string Name { get; set; }
         public ItemList ItemList { get; set; }
         public ICollection<Tag> Tags { get; set; }
