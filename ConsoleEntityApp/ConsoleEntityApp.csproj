@@ -57,7 +57,15 @@
     <Compile Include="Migrations\201810081831451_AllModels.Designer.cs">
       <DependentUpon>201810081831451_AllModels.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810081914471_UpdateItem.cs" />
+    <Compile Include="Migrations\201810081914471_UpdateItem.Designer.cs">
+      <DependentUpon>201810081914471_UpdateItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\ItemList.cs" />
+    <Compile Include="Models\Tag.cs" />
+    <Compile Include="Models\Type.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -71,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810081831451_AllModels.resx">
       <DependentUpon>201810081831451_AllModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810081914471_UpdateItem.resx">
+      <DependentUpon>201810081914471_UpdateItem.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
