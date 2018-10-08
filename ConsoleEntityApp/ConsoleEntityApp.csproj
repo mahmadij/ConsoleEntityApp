@@ -49,6 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\ItemConfiguration.cs" />
+    <Compile Include="Context\ItemListConfiguration.cs" />
+    <Compile Include="Context\MyDbContext.cs" />
     <Compile Include="Migrations\201810080232501_CreateItem.cs" />
     <Compile Include="Migrations\201810080232501_CreateItem.Designer.cs">
       <DependentUpon>201810080232501_CreateItem.cs</DependentUpon>
@@ -64,6 +67,10 @@
     <Compile Include="Migrations\201810081939302_Override.cs" />
     <Compile Include="Migrations\201810081939302_Override.Designer.cs">
       <DependentUpon>201810081939302_Override.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810082102458_FluentAPI.cs" />
+    <Compile Include="Migrations\201810082102458_FluentAPI.Designer.cs">
+      <DependentUpon>201810082102458_FluentAPI.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Item.cs" />
@@ -89,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810081939302_Override.resx">
       <DependentUpon>201810081939302_Override.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810082102458_FluentAPI.resx">
+      <DependentUpon>201810082102458_FluentAPI.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
