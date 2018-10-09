@@ -72,6 +72,10 @@
     <Compile Include="Migrations\201810082102458_FluentAPI.Designer.cs">
       <DependentUpon>201810082102458_FluentAPI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810090217376_LoadDB.cs" />
+    <Compile Include="Migrations\201810090217376_LoadDB.Designer.cs">
+      <DependentUpon>201810090217376_LoadDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ItemList.cs" />
@@ -99,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810082102458_FluentAPI.resx">
       <DependentUpon>201810082102458_FluentAPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810090217376_LoadDB.resx">
+      <DependentUpon>201810090217376_LoadDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

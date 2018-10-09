@@ -15,7 +15,7 @@ namespace ConsoleEntityApp.Models
         [Required]
         public string Name { get; set; }
         public ItemList ItemList { get; set; }
-        public int ItemListId { get; set; }
+        //public int ItemListId { get; set; }
         public ICollection<Tag> Tags { get; set; }
         public Type Type { get; set; }
         public DateTime DateCreated { get; set; }

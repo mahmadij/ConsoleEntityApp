@@ -25,10 +25,10 @@ namespace ConsoleEntityApp.Context
                     m.MapRightKey("TagId");
                 });
 
-            HasRequired(i => i.ItemList)
+            /*HasRequired(i => i.ItemList)
                 .WithMany(il => il.Items)
                 .HasForeignKey(i => i.ItemListId)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(false);*/
         }
     }
 }
